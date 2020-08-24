@@ -50,6 +50,7 @@
 		90C83AFD24E527C200A4D85C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		90C83AFE24E527C200A4D85C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		AD5DF03F1E653FB886A26686 /* Pods-EaseMobCallKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseMobCallKit.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-EaseMobCallKit/Pods-EaseMobCallKit.debug.xcconfig"; sourceTree = "<group>"; };
+		C05DA16E24F3D4B900B54686 /* EaseMobCallKitRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EaseMobCallKitRelease.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		90A886FD24E3CC3A000996D4 /* EaseMobCallKit */ = {
 			isa = PBXGroup;
 			children = (
+				C05DA16E24F3D4B900B54686 /* EaseMobCallKitRelease.entitlements */,
 				90A8872324E3DCF8000996D4 /* Tools */,
 				90A8871F24E3D17F000996D4 /* EMCallKitManager */,
 				90A8871724E3CE2A000996D4 /* EaseMobCallKitDebug.entitlements */,
@@ -432,6 +434,7 @@
 			baseConfigurationReference = 2E3C075C6A1F3E2C42D51909 /* Pods-EaseMobCallKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EaseMobCallKit/EaseMobCallKitRelease.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 499WYUV8Q2;
