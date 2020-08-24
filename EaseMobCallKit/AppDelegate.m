@@ -29,10 +29,12 @@
     options.enableConsoleLog = YES;
 #if DEBUG
     options.apnsCertName = @"EaseMobTestPush_dev";
+    options.pushKitCertName = @"EaseMobTestVoip";
 #else
     options.apnsCertName = @"EaseMobTestPush";
+    options.pushKitCertName = @"EaseMobTestVoip-prod";
 #endif
-    options.pushKitCertName = @"EaseMobTestVoip";
+    //options.pushKitCertName = @"EaseMobTestVoip";
     
     
     options.enableDnsConfig = NO;
